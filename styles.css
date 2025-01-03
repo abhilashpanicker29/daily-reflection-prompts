@@ -1,31 +1,51 @@
 /* styles.css */
 
+/* General body styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #1e1e2f; /* Dark background */
+  color: #e0e0e0; /* Light text */
   margin: 0;
   padding: 20px;
 }
 
+/* Title styling */
 h1 {
-  color: #333;
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
+/* Prompt container styling */
 .prompt {
-  margin: 20px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #2a2a40; /* Darker card background */
+  border: 1px solid #3a3a5c; /* Subtle border */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for card effect */
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
 }
 
+/* Prompt title styling */
 h3 {
-  color: #555;
+  color: #ffa726; /* Accent color for section titles */
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
+/* Prompt text styling */
 p {
-  font-size: 18px;
-  color: #444;
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+/* Add hover effect for the cards */
+.prompt:hover {
+  background-color: #34344b; /* Slightly brighter on hover */
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
 }
