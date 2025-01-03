@@ -11,7 +11,7 @@ function getRandomPrompt(category) {
 
 // Display prompts on the webpage
 document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("morningText").textContent = getRandomPrompt("morning");
-  document.getElementById("afternoonText").textContent = getRandomPrompt("afternoon");
-  document.getElementById("nightText").textContent = getRandomPrompt("night");
+  document.getElementById("morningPrompt").textContent = getRandomPrompt("morning");
+  document.getElementById("afternoonPrompt").textContent = getRandomPrompt("afternoon");
+  document.getElementById("nightPrompt").textContent = getRandomPrompt("night");
 });
